@@ -38,7 +38,7 @@ async function runLighthouse(url) {
   const runnerResult = await lighthouse(url, options, config);
 
   const reportHtml = runnerResult.report;
-  fs.writeFileSync('BEFORE/lighthouse-report.html', reportHtml);
+  fs.writeFileSync('AFTER/lighthouse-report.html', reportHtml);
 
   console.log('Report is written to lighthouse-report.html');
 

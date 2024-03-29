@@ -1,9 +1,9 @@
-// import "./vendor/jquery/jquery.min.js";
-// import "./vendor/bootstrap/js/bootstrap.min.js";
-// import "./assets/js/isotope.min.js";
-// import "./assets/js/owl-carousel.js";
-// import "./assets/js/counter.js";
-// import "./assets/js/custom.js";
+import "./vendor/jquery/jquery.min.js";
+import "./vendor/bootstrap/js/bootstrap.min.js";
+import "./assets/js/isotope.min.js";
+import "./assets/js/owl-carousel.js";
+import "./assets/js/counter.js";
+import "./assets/js/custom.js";
 
 
 import "./assets/css/fontawesome.css";
