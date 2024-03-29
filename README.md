@@ -7,3 +7,5 @@
 * Added image Minification pluging
 * Added lazy loading to images
 * Async loading of fonts
+* Compresed images to webp
+* Fixed css owl image missing
