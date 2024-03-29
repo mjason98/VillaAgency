@@ -6,11 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "serve": "serve -s dist -l 3000",
     "preview": "vite preview",
     "lighthouse": "node run-lighthouse.js"
   },
   "devDependencies": {
+    "serve": "^14.2.1",
+    "terser": "^5.30.0",
     "vite": "^5.2.0",
+    "vite-plugin-compression": "^0.5.1",
     "vite-plugin-imagemin": "^0.6.1"
   },
   "dependencies": {

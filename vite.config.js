@@ -2,6 +2,9 @@ import { defineConfig } from "vite";
 import cssnanoPlugin from "cssnano";
 import imagemin from "vite-plugin-imagemin";
 import { resolve } from 'path';
+import viteCompression from 'vite-plugin-compression';
+// import terser from 'vite-plugin-terser';
+
 
 export default defineConfig({
   root: ".",
@@ -11,6 +14,13 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
       },
+    },
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      },
+      mangle: {},
     },
   },
   plugins: [
@@ -45,5 +55,12 @@ export default defineConfig({
         quality: 75,
       },
     }),
+    viteCompression({
+        verbose: true,
+        disable: false,
+        threshold: 10240,
+        algorithm: 'brotliCompress',
+        ext: '.br',
+      }),
   ],
 });
