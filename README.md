@@ -1,5 +1,10 @@
+# Final Web Perfomance assigment
 
-## Optmimize
+## BEFORE/AFTER
+
+You can find the the begofe vs after optimization metrics in their respective folder with the lighthouse reports
+
+## Optimizations
 * Added bundler
 * Installed Vite
 * Instaled Lighthouse
