@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "chrome-launcher": "^1.1.1",
-    "lighthouse": "^11.7.0"
+    "cssnano": "^6.1.2",
+    "lighthouse": "^11.7.0",
+    "vite-plugin-imagemin": "^0.6.1"
   }
 }
